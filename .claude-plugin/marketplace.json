@@ -1,0 +1,16 @@
+{
+  "name": "glintlock-marketplace",
+  "version": "1.0.0",
+  "description": "Official Glintlock plugin marketplace",
+  "owner": {
+    "name": "glintlockGG",
+    "url": "https://glintlock.gg"
+  },
+  "plugins": [
+    {
+      "name": "glintlock",
+      "source": "glintlockGG/glintlock",
+      "description": "Solo TTRPG Game Master for Torchlit — persistent world state, dice rolling, curated random tables, audiobook generation, and campaign dashboard."
+    }
+  ]
+}
