@@ -13,4 +13,4 @@ claude /plugin install glintlock
 
 | Plugin | Description |
 |--------|-------------|
-| [glintlock](https://github.com/glintlockGG/glintlock) | Solo TTRPG Game Master for Torchlit — persistent world state, dice rolling, curated random tables, audiobook generation, and campaign dashboard. |
+| [glintlock](https://github.com/glintlockGG/glintlock) | Solo TTRPG campaign engine — persistent world state, real dice, oracle tables, voice narration, audiobook generation, and a living world that advances between sessions. |
