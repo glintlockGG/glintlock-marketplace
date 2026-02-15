@@ -1,17 +1,24 @@
-# Glintlock Marketplace
+# Glintlock Marketplace (Deprecated)
 
-Official plugin marketplace for [Glintlock](https://glintlock.gg) — the AI Game Master for solo TTRPG.
+> **This marketplace is deprecated.** Install Glintlock directly via `git clone` instead.
 
-## Install
+## Install Glintlock (Claude Code)
 
 ```bash
-claude /plugin marketplace add glintlockGG/glintlock-marketplace
-claude /plugin install glintlock
+git clone https://github.com/glintlockGG/glintlock.git
+claude --plugin-dir ./glintlock
 ```
 
-## Plugins
+## Install Glintlock (OpenCode)
 
-| Plugin | Platform | Description |
-|--------|----------|-------------|
-| [glintlock](https://github.com/glintlockGG/glintlock) | Claude Code | Solo TTRPG campaign engine — persistent world state, real dice, oracle tables, voice narration, audiobook generation, and a living world that advances between sessions. |
-| [glintlock-opencode](https://github.com/glintlockGG/glintlock-opencode) | OpenCode | OpenCode port of Glintlock — same engine, any model. Default: MiniMax M2.5. |
+```bash
+git clone https://github.com/glintlockGG/glintlock-opencode.git
+cd glintlock-opencode && cd engine && npm install && npm run build && cd .. && opencode
+```
+
+## Links
+
+- [Glintlock (Claude Code)](https://github.com/glintlockGG/glintlock)
+- [Glintlock (OpenCode)](https://github.com/glintlockGG/glintlock-opencode)
+- [Website](https://glintlock.gg)
+- [Discord](https://discord.gg/eJJYag5Efv)
